@@ -208,10 +208,16 @@ p {
 .hero {
   text-align: center;
   background-color: var(--hero-footer-becground-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
-  margin-bottom: 33px;
+  max-width: 696px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 
   font-weight: 900;
   font-size: 44px;
@@ -303,6 +309,10 @@ p {
 
 /* стили секции "Наша команда"*/
 
+.employee {
+  background-color: var(--secondary-background-color);
+}
+
 .employees-title {
   margin-bottom: 50px;
 
@@ -317,7 +327,6 @@ p {
   justify-content: space-between;
 
   text-align: center;
-  background-color: var(--secondary-background-color);
 }
 
 .employees-card {
@@ -372,7 +381,7 @@ p {
 }
 .button {
   display: inline-block;
-  padding: 10px 32px;
+  padding: 6px 22px;
 
   font-family: inherit;
   font-weight: 500;
